@@ -1,0 +1,114 @@
+#contant{width:100%;height:450px;padding: 20px 0 30px;}
+.lunbo{width:1200px;height:450px;margin:0 auto;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+ul, li{list-style:none;}
+img{border:0;}
+.wrapper{width:1200px;margin:0 auto;padding-bottom:50px;}
+
+
+
+/* 核心代码 */
+.focus{width:1200px;height:450px;overflow:hidden;position:relative;}
+.focus ul{height:450px;position:absolute;}
+.focus ul li{float:left;width:1200px;height:450px;overflow:hidden;position:relative;background:#000;}
+.focus ul li img{width:100%;}
+.focus ul li div{position:absolute;overflow:hidden;}
+.focus .btn{position:absolute;width:780px;height:10px;padding:5px 10px;right:0;bottom:5px;text-align:center;}
+.focus .btn span{display:inline-block;_display:inline;_zoom:1;width:13px;height:13px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;border-radius:50%;}
+.focus .btn span.on{background:yellow;}
+.focus .preNext{width:45px;height:100px;position:absolute;top:200px;background:url(../img/sprite.png) no-repeat 0 0;cursor:pointer;display:none;}
+.focus .pre{left:0;}
+.focus .next{right:0;background-position:right top;}
+
+/*==============首页快捷入口=============*/
+.homebox{width:100%;padding:30px 0 20px;}
+.home_shortcut{width:1200px;margin:0 auto ;height:86px;padding:0 0 20px;}
+.home_shortcut a{float:left;display:block;height:86px;background:url(../img/shortcut2.jpg) no-repeat;-moz-transition: all .3s;margin-left:20px;}
+.home_shortcut .shareb{width:200px;background-position:0 0;}
+.home_shortcut .newn{width:195px;background-position:-230px 0;}
+.home_shortcut .goods{width:200px;background-position:-475px 0;}
+.home_shortcut .newgift{width:190px;background-position:-725px 0;}
+.home_shortcut .yaoq{width:215px;background-position:-965px 0;}
+
+.home_topic{width:1200px;margin:0 auto;overflow: hidden;}
+.home_topic .fl{float:left;}
+.home_topic .fr{float:right;}
+.home_topic .mb{margin-bottom:3px;}
+.home_topic .ml{margin-left:3px;}
+.home_topic a{display:block;width:100%;height:100%;
+position:relative;background:#fff;line-height:0;}
+.homebox .home_topic a img{opacity:1;vertical-align:middle;}
+.home_topic .clear{clear:both;width:100%;height:0;line-height:0;}
+
+
+
+
+
+#Left-float{width:100%;height:420px;}
+.yidong{position:relative;width:100%;height:420px;margin:40px auto;background:url(../img/globalbg1.jpg) no-repeat 680px 0;overflow:hidden;}		
+.yidong a{position:absolute;border-radius: 50%;-moz-transition: all .3s;color:#000;}
+.yidong a img{vertical-align:middle;border:0 none;}
+.nav1{width:212px;height:212px;left:0;top:15px;}
+.nav2{width:145px;height:145px;left:250px;top:15px;}
+.nav3{width:184px;height:184px;left:450px;top:20px;}
+.nav4{width:211px;height:211px;right:0;top:15px;}
+
+.nav5{width:145px;height:145px;left:12px;bottom:12px;}
+.nav6{width:211px;height:211px;left:230px;bottom:20px;}
+.nav7{width:145px;height:145px;left:495px;bottom:20px;}
+.nav8{width:270px;height:270px;left:688px;bottom:20px;}
+.nav9{width:155px;height:145px;right:8px;bottom:15px;}
+/*==============精品专场入口================*/
+.home_beats{width:1200px;margin:0 auto;}
+.home_beats ul{overflow:hidden;}
+.home_beats ul li{float:left;width:600px;height:300px;overflow:hidden;display:block;margin:0 0 40px;}
+.home_beats ul li a{display:block;width:100%;height:100%;position:relative;overflow:hidden;color:#fff;line-height:0;}
+.home_beats ul li a img .pic{width:600px;height:300px;-moz-transition:all .3s;vertical-align:middle;}
+.home_beats ul li a p{position:absolute;left:0;top:50%;width:100%;height:80px;margin-top:-40px 0 0;text-align:center;color:#fff;line-height:0;}
+.home_beats ul li a p img{vertical-align:middle;}
+
+
+.main{width:1200px;margin:0 auto;padding:0 0 50px;overflow:hidden;}
+.main a{display:block;background:#fff;}
+.main a img{opacity:1;-moz-transition:all .3s;vertical-align:middle;}
+
+.home_find{width:1200px;margin:0 auto;overflow:hidden;}
+.home_find .find_list{width:1217px;overflow:hidden;}
+.home_find .find_list li{float:left;width:287px;margin:0 17px 20px 0;float: left;}
+.home_find .find_list li a{display:block;width:100%;height:100%;position:relative;color:#000;}
+.home_find .find_list li a img{width:285px;}
+.home_find .find_list li p{position:absolute;left:0;top:0;width:285px;height:488px;border:1px solid #efefef;}
+.home_find .find_list li .mb{margin-bottom:20px;}
+.find-warp{display:block;}
+.temp{width:260px;height:560px;margin:0 0 20px;padding:80px 14px 0 13px;background:url(../img/xiukerbg.jpg) no-repeat center top;background:#f0efee;position:relative;overflow:hidden;}
+#demo{width:285px;height: 488px;overflow: hidden;}
+
+
+
+
+
+
+/*==============================首页头部菜单json获取数据的样式=============================*/
+.logo-link li {margin: 0 auto;display: inline-block;height: 42px;position: relative;}
+.logo-link li a {display: inline-block;height: 42px;line-height: 42px;margin-right: 25px;}
+.logo-link li a span {display: inline-block;height: 41px;overflow: hidden;line-height: 42px;font-size: 14px;color: #000;cursor: pointer;width: 60px;text-align: center;position: relative;}
+.logo-link,.logo-link ul{width:1200px;margin:0 auto;position:relative;z-index:4;text-align: center;}
+.logo-warp {min-width: 1200px;height: 42px;background: #f7f7f7;border-bottom: 1px solid #fff;}
+.logo-link li.m4 .submenu {background: #fff;}
+.logo-link li .submenu {display: none;position:absolute;top:42px;left:0;border:#fff 1px solid;z-index:3;text-align:left;}
+.tyo_con {width: 720px;padding: 10px 10px 0 15px;}
+.tyo_con .tyoCon_l, .tyo_con .tyoCon_r {display: inline;float: left;width: 450px;}
+.tyoCon_l dl {border-bottom: 1px dotted #959595;float: left;clear: both;width: 91%;padding-bottom: 5px;margin: 4px 17px;}
+.tyo_con dt, .tyo_con dd {line-height: 18px;}
+.tyo_con h4 {font-size:12px;width:100%;float: left;}
+.tyoCon_l dt a {font-weight:bold;line-height: 20px;height:20px;text-align:left;margin: 0;padding:0;}
+.tyoCon_l dd {float: left;color: #a8a8a8;}
+.tyo_con dt, .tyo_con dd {line-height: 18px;}
+.tyoCon_l dd a{line-height: 14px;height: 14px;width: auto;margin: 0 20px 0 0;display: inline;float: none;color:#666;font-size:12px;}
+.tyoCon_l dd a:hover{color:red;}
+.tyoCon_l{margin-left: -16px;background: white;}
+
+
+
+

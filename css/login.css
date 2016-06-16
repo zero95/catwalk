@@ -1,0 +1,21 @@
+#main-body{width:100%;background:#F7F2EC;}
+#main-body .login{width:1000px;height:400px;background:url(../img/login-ad-img-demo-2.jpg) no-repeat left top;margin:0 auto;}
+#login-form{margin-right:40px;float:right;width:350px;height:365px;border:1px solid #000000;}
+#login-txt,#login-pwd{width:350px;height:65px;}
+#txt,#pwd{width:240px;height:28px;border:1px solid #999999;margin:10px 0 0 10px;padding-left:10px;}
+
+
+ .error-name{display:none;height:20px;width:260px;font-size:12px;color:#B91401;margin:0 auto;line-height:20px;}
+ .error-pass{display:none;height:20px;width:260px;font-size:12px;color:#B91401;margin:0 auto;line-height:20px;}
+.choose{width:350px;height:50px;}
+
+#remember,#free{margin-left:20px;height:15px;}
+#btn-link{width:350px;height:60px;}
+#btn-link a{float:left;margin-left:25px;height:60px;line-height:60px;color:#4D90C2;}
+#btn-link #btn{display:block;width:103px;height:35px;background:#B91401;color:white;text-align:center;line-height:35px;}
+#showDiv{width:345px;height:28px;font-size:14px;padding-left:10px;}
+#showDiv a{color:#FF0000;}
+#hideDiv{width:350px;height:30px;}
+.common,.practical{float:left;height:15px;line-height:15px;font-size:14px;margin-bottom:10px ;}
+.common a,.practical a{color:black;padding-left:20px;}
+.common a img,.practical a img{padding-right:5px;}

@@ -1,0 +1,91 @@
+body,html{height:100%;}
+#main-body{width:100%;}	
+#place{width:1000px;height:40px;margin:0 auto;line-height:40px;border-bottom:1px solid #E5E5E5;}
+#place a{display:block;font-size:14px;float:left;color:#005BA1;}
+
+/*==============放大镜css==============*/
+#news{width:1000px;min-height:760px;height:auto!important;height:760px;margin:0 auto;}
+.news-pic{width:500px;height:720px;float:left;}
+.bigPic{border:1px solid #CCCCCC;}
+.bigPic img {width:480px;}
+    /*=S zoom big pic */
+.jqzoom {display:inline-block;position:relative;cursor:move;}
+div.zoomdiv{z-index:100;position:absolute;top:0px;left:0px;width:500px;height:500px;background:#fff;border:1px solid #ccc;display:none;text-align:center;overflow:hidden;}
+div.jqZoomPup {z-index:10;visibility:hidden;position:absolute;top:0px;
+left:0px;width:100px;height:100px;border:1px solid #aaa;background:#fff url(zoom.gif) 50% top no-repeat;opacity:.5;-moz-opacity:.5;-khtml-opacity: .5;filter: alpha(Opacity=50);}
+    
+    
+.news-info{width:500px;float:left;height:725px;padding-top:15px;}
+/*===============Theme================*/
+.Theme{height:100px;width:500px;border-bottom:1px solid #CCCCCC;}
+.Theme span{display:block;float:left;font-size:12px;line-height:50px;color:#646464;padding-right:35px;}
+.Theme span a{text-decoration:underline;}
+/*===============consult================*/
+.consult{height:175px;width:500px;border-bottom:1px solid #CCCCCC;}
+.consult p{width:500px;height;60px;padding-bottom:30px;}
+.tiptools{z-index:99;width:500px;height:160px;position: absolute;top:450px;right:145px;display: none;}
+.tiptools img{border:1px solid #999999;}
+/*===============demand================*/
+.demand{height:275px;width:500px;border-bottom:1px solid #CCCCCC;}
+.demand p{width:500px;height:55px;line-height:70px;}
+.demand p span{display:inline-block;width:20px;height:20px;border:1px solid #999999;line-height: 15px;text-align:center;}
+.demand p input{text-align:center;width:80px;height:25px;margin:0 10px;}
+.add-p{height:75px;line-height:75px;}
+.immediately{display:block;width:152px;height:35px;border-radius:6%;background:#F4752A;float:left;line-height:35px;text-align:center;color:white;margin:16px 20px 0 0;}
+.join{display:block;width:152px;line-height:35px;height:35px;border-radius:6%;background:#6DB44B;float:left;text-align:center;color:white;margin-top:14px;}
+.Final{width:700px;height:35px;padding-right:50px;font-size:12px;}
+.Final b{height:35px;font-size: 18px;}
+/*===============share================*/
+.share{height:140px;width:500px;}
+.share .share-left{width:250px;height:110px;}
+.share-left img{padding-top:15px;}
+.share-right img{padding-left:5px;}
+.share .share-right{width:249px;height:140px;border-left:1px solid #CCCCCC;}
+.share-left,.share-right{float:left;line-height:140px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.information{width:1000px;margin:0 auto;}
+.information ul{height:40px;border-bottom:2px solid #EA7514;}
+.information ul li{float:left;border-right:1px solid #FFFFFF;}
+.information ul li a{display:block;color:white;background:#CCCCCC;width:138px;height:40px;line-height:40px;text-align:center;}
+.information ul li .fixation{background:#F27626;}
+.information ul li a:hover{background:#F27626;}
+.information ul li .add-shopping{display:block;width:423px;height:38px;text-align:right;padding-right:20px;}
+
+
+.information ul li .add-shopping:hover{background:#CCCCCC;}
+.box{width:1000px;min-height: 800px;height:auto!important;height:800px;}
+.box:after{content:".";display:block;height:0;clear:both;overflow: hidden;visibility: hidden;}
+#active1{width:1000px;margin:0 auto;overflow:hidden;height:2800px;z-index:999;}
+#active2{width:1000px;height:560px;margin:0 auto;display:none;}
+#active3{width:1000px;height:1200px;margin:0 auto;display:none;}
+#active4{width:1000px;height:760px;margin:0 auto;display:none;}
+.property{width:800px;height:132px;}
+.property h3{background:#F3F3F3;height:26px;margin:20px 0;line-height:26px;padding-left:20px;}
+.property table{width:800px;height:64px;}
+.property table tr td{width:256px;height:25px;border:1px solid #EBEBEB;}
+.property table tr td b{color:#646464;font-size:14px;padding-left:10px;}
+.property table tr td span{color:#646464;font-size:12px;}
+.Reals{width:800px;}
+.Reals h3{background:#F3F3F3;height:26px;margin:20px 0;line-height:26px;padding-left:20px;}
+.Reals .reminder{font-size:12px;color:#646464;padding-left:30px;line-height:25px;}
+.Reals .skin{font-size:12px;color:#646464;line-height: 20px;}
+.story{width:750px;height:200px;border}
+.story p{font-size:12px;color:#646464;line-height:20px;}
+
+
+
+
+
+

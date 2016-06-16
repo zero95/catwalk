@@ -1,0 +1,83 @@
+<div id="warp-header">
+			<div class="head">
+				<div class="top">
+					<div class="top-pic"><img src="img/r1_c2.png" alt="" title="show" /></div>
+					<div class="top-link">
+						<div class="link">
+							<ul class="warp-link" id="warp-link">
+								<li style="line-height:45px;">您好，欢迎光临走秀网！</li>
+								<li><a href="html/login.html">登录</a><a href="html/register.html">注册<span style="color:#F6A120;">即送880</span></a></li>
+								<li>
+									<a href="#">邀请好友<span style="color:#F6A120;">立减50</span><span>|</span></a>
+									<a href="#" class="shop"><img src="img/suo.png" />购物袋0件<span>|</span><i class="shop-i">购物车暂时没有商品</i></a>
+									<a href="#">我的订单<span>|</span></a>
+									<div class="myShow"><a href="#">我的走秀<img src="img/narrow.gif"/><span>|</span>
+										<div class="xiu_ul">
+											<a href="#">我的订单</a>
+											<a href="#">自动退货</a>
+											<a href="#">我的收藏</a>
+											<a href="#">帮助中心</a>
+											<a href="#">全部吐槽</a>
+										</div>
+									</a>
+									</div>
+									<div class="service"><a href="#">客户服务<img src="img/narrow.gif"/>
+										<ul class="service_ul">
+											<li><a href="#">我的订单</a></li>
+											<li><a href="#">自动退货</a></li>
+										</ul>
+										</a>
+									</div>
+							</ul>
+						</div>
+	<script>
+$(function(){
+/*------------------我的走秀下拉------------------------*/
+$('.myShow').hover(function(){
+	$('.xiu_ul').stop(true).show();
+},function(){
+	$('.xiu_ul').stop(false).hide();
+})
+
+/*------------------购物车的下拉------------------------*/
+	$(".shop").mousemove(function() {
+		$('.shop-i').show();
+	})
+	$(".shop").mouseout(function() {
+		$('.shop-i').hide();
+	})
+/*------------------客服的下拉------------------------*/	
+	$(".service").mousemove(function() {
+		$('.service_ul').show();
+	})
+	$(".service").mouseout(function() {
+		$('.service_ul').hide();
+	})
+})
+	</script>
+						<div class="search">
+							<form action="" method="get" target="_blank" id="search-form">
+								<lable id="search-welcome" for="searchTerm" class="leon-welcome"></lable>
+								<div class="txt">
+									<input type="text" value="请搜索 菲拉格慕2016年春季新品 试试" id="searchTerm"/>
+									<div class="btn">
+										<a href="#"><img src="img/search.png"/></a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="nav ">
+					<ul class="nav-link"></ul>
+				</div>
+			</div>
+			<div class="logo-warp">
+				<div class="logo">
+				<ul class="logo-link">
+					
+				</ul>
+				<div class="tab1"></div>
+				</div>
+			</div>
+		</div>
